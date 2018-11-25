@@ -31,10 +31,8 @@ Show
 	MinimapIcon 0 Yellow Diamond
 	PlayEffect Yellow
 
-
 #####################################################################################################################################
 #####################################################################################################################################
-
 
 ## Elder Jewellery
 
@@ -598,11 +596,74 @@ Show
 #White Maps
 Show
 	Class Maps
-	SetFontSize 35
+	SetFontSize 40
 	SetTextColor 0 0 0
 	SetBackgroundColor 255 255 255
 	SetBorderColor 0 0 0
 	PlayAlertSound 4 100
+
+#####################################################################################################################################
+#####################################################################################################################################
+
+##Leveling
+	Show
+		ItemLevel <= 68
+		LinkedSockets >= 3
+		SocketGroup RGB
+		SetFontSize 40
+		SetTextColor 0 0 0
+		SetBackgroundColor 216	202	202
+		SetBorderColor 0 0 0
+
+	Show
+		ItemLevel <= 12
+		LinkedSockets = 3
+		SetBackgroundColor 0 0 0
+		SetBorderColor 255 225 0
+		SetFontSize 40
+
+	Show
+		ItemLevel <= 12
+		BaseType "Ring" "Amulet" "Belt"
+		SetFontSize 40
+		SetBackgroundColor 0 0 0
+		SetTextColor 255 255 255
+		SetBorderColor 0 0 0
+
+	Show
+		ItemLevel <= 68
+		BaseType "Flask"
+		Rarity = Magic
+		SetFontSize 40
+		SetBackgroundColor 0 0 0
+		SetTextColor 0 225 255
+		SetBorderColor 0 0 0
+
+	Show
+		ItemLevel <= 68
+		BaseType "Flask"
+		Rarity = Normal
+		SetFontSize 40
+		SetBackgroundColor 0 0 0
+		SetTextColor 255 255 255
+		SetBorderColor 0 0 0
+
+	Show
+		ItemLevel <= 68
+		LinkedSockets >= 4
+		SetBackgroundColor 0 0 0
+		SetBorderColor 255 225 0
+		SetFontSize 40
+
+	Show
+		ItemLevel <= 67
+		Rarity = Rare
+		SetFontSize 40
+		SetBackgroundColor 0 0 0
+		SetBorderColor 255 225 0
+
+
+
 
 ##hide the rest of the loot
 Hide
