@@ -1,4 +1,4 @@
-# Kat-s-Poe-Filter
+# Katz-Poe-Filter
 Filter for the Early,Late and ultra late game made by Kat
 
 i hate having to switch filters at the start of the league and i dont really like most filter themes
